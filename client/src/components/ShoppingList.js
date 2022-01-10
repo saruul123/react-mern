@@ -20,7 +20,7 @@ onDeleteClick = (id)=> {
                 <ListGroup>
                     <TransitionGroup className="shopping-list">
                         {items.map(({id, name}) => (
-                            <CSSTransition key={id} timeout={500} classNames="">
+                            <CSSTransition key={id} timeout={500} classNames="faded">
                                 <ListGroupItem>
                                     <Button 
                                     className='remove-btn'
